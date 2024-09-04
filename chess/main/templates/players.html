@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+    	 {% for e in players %}
+        <h2>{{ e.name }} {{ e.age }} {{ e.rank }}</h2>
+    {% endfor %}
+    {% endblock %}
+
